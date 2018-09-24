@@ -86,6 +86,7 @@ def adding_matz
 		 #   :known_for => "Ruby",
 		 #    :languages => ["LISP", "C"]
 		 # }
+		 binding.pry
 
 end
 
@@ -109,6 +110,7 @@ def changing_alan
      alans_new_info = "GUI"
 		 programmer_hash[:alan_kay][:known_for][0] = alans_new_info
 		 programmer_hash[:alan_kay][:known_for]
+		 binding.pry
 
 
 end
@@ -132,6 +134,6 @@ def adding_to_dennis
 
 		 programmer_hash[:dennis_ritchie][:language].push("Assembly")
 		 programmer_hash
-end
+		 binding.pry
 
-binding.pry
+end
