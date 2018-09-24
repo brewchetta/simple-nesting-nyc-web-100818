@@ -135,9 +135,3 @@ def adding_to_dennis
 		 programmer_hash
 
 end
-
-adding_matz
-
-adding_to_dennis
-
-changing_alan
